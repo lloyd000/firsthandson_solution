@@ -9,9 +9,10 @@ body {
     background-color: #fff;
 }
 
-h1 {
+.header {
     text-align: center;
     margin: 50px;
+    font-size: 1.75em;
 }
 
 div.row {
@@ -33,7 +34,7 @@ div.content {
     position: relative;
     border-radius: 10px;
 }
-div h3 {
+div div.subheader {
     background-color: #000;
     color: #fff ;
     width: 120px;
@@ -42,4 +43,5 @@ div h3 {
     right: 0;
     text-align: center;
     border-radius: 5px;
+    font-size: 1.25em;
 }
